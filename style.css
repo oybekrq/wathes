@@ -82,6 +82,11 @@
   color: gray;
   padding: 30px 20px;
   cursor: pointer;
+  transition: background-color, color, 0, 5s;
+}
+.navigate__link:hover {
+  background-color: black;
+  color: white;
 }
 .navigate .active {
   background-color: #1f1f1f;
@@ -134,4 +139,26 @@
   width: 750px;
   color: white;
   margin: 0 auto;
+}
+
+.seasoncards {
+  width: 1040px;
+  background-color: black;
+}
+.seasoncards__title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  padding: 93px 0 0 0;
+}
+
+.line {
+  height: 1px;
+  background-color: white;
+  width: 120px;
+  margin: 0 auto;
+  margin-top: 50px;
 }/*# sourceMappingURL=style.css.map */
