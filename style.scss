@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.container {
+    max-width: 1920px;
+    padding: 0 405px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #000;
+    padding-top: 14px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    &__list {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+    }
+
+    &__link {
+        font-weight: 400;
+        font-size: 12px;
+        color: gray;
+    }
+
+    a {
+        font-weight: 400;
+        font-size: 12px;
+        color: gray;
+    }
+
+    span {
+        font-weight: 400;
+        font-size: 12px;
+        color: gray;
+    }
+
+    &__btn {
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-weight: 400;
+        font-size: 12px;
+        text-align: right;
+        color: gray;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.navigate {
+    background-color: #0f0f0f;
+    padding: 25px 0;
+    margin-top: 15px;
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+
+    &__link {
+        font-weight: 400;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: gray;
+        padding: 30px 20px;
+        cursor: pointer;
+    }
+
+    & .active {
+        background-color: #1f1f1f;
+        color: white;
+    }
+}
