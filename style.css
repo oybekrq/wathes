@@ -141,6 +141,10 @@
   margin: 0 auto;
 }
 
+.season {
+  display: flex;
+}
+
 .seasoncards {
   width: 1040px;
   background-color: black;
@@ -190,4 +194,44 @@
   background-color: #191b1c;
   padding: 55px 22px;
   margin-bottom: 25px;
+}
+
+.newcoll {
+  background-color: black;
+  background-image: url(img/man_sitting.jpg);
+  width: 880px;
+}
+.newcoll__h3 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+  margin-top: 484px;
+}
+.newcoll__button {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  border: 1px solid white;
+  padding: 12px 28px;
+  background: none;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 92px;
+}
+
+.newcollline {
+  background-color: white;
+  display: block;
+  width: 120px;
+  height: 1px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }/*# sourceMappingURL=style.css.map */
