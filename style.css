@@ -86,4 +86,52 @@
 .navigate .active {
   background-color: #1f1f1f;
   color: white;
+}
+
+.porten {
+  background-image: url(img/piterman.jpg);
+  padding: 150px 0;
+}
+
+.porten__logo {
+  border-bottom: 2px solid white;
+  display: block;
+  margin: 0 auto;
+}
+
+.porten__p {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  margin-top: 7px;
+}
+
+.square {
+  border: 3px solid white;
+  margin: 0 auto;
+  width: 320px;
+  height: 320px;
+  margin-bottom: 80px;
+}
+
+.square__desc {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 90px;
+}
+
+.porten__desc {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-transform: uppercase;
+  text-align: center;
+  width: 750px;
+  color: white;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */
